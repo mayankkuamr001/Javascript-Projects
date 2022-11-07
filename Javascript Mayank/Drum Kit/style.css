@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.containner{
+    position: relative;
+    width: 95%;
+    margin: auto;
+    top: 40vh;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    border: 2px solid black;
+    background-color: rgba(37, 37, 37, 0.89);
+    border-radius: 8px;
+
+    height: 4.8rem;
+    width: 7rem;
+
+    text-align: center;
+}
+.button:active{
+    border: 2px solid rgb(224, 210, 7);
+}
+.button h1{
+    color: rgb(250, 250, 250);
+    font-size: 2.4rem;
+    margin: 0.5rem;
+}
+.button p{
+    color: rgb(255, 166, 0);
+    text-decoration: dotted;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+}
